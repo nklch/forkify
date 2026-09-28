@@ -1,0 +1,23 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "license": "ISC",
+  "author": "andreus",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "core-js": "^3.50.0",
+    "fraction.js": "^5.3.4",
+    "fractional": "^1.0.0",
+    "parcel": "^2.16.4",
+    "regenerator-runtime": "^0.14.1",
+    "sass": "^1.104.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.4"
+  }
+}
